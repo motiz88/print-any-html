@@ -10,5 +10,8 @@
 	"repository":  "derhuerst/print-any-html",
 	"bugs":        "https://github.com/derhuerst/print-any-html/issues",
 	"license":     "ISC",
-	"engines":     {"node": ">=6"}
+	"engines":     {"node": ">=6"},
+	"dependencies": {
+		"window-on-print": "^0.1.0"
+	}
 }
