@@ -20,7 +20,34 @@ npm install print-any-html
 
 ## Usage
 
-todo
+```
+print(html, [callback], [delay])
+```
+
+`delay` is `20` ms by default.
+
+```js
+const print = require('print-any-html')
+
+const html = `
+	<!doctype html>
+	<html>
+	<head>
+		<meta charset="utf-8"/>
+		<style>
+			p { text-transform: uppercase; }
+		</style>
+	</head>
+	<body>
+		<p>Hello World.</p>
+	</body>
+	</html>
+`
+
+print(html, () => {
+	console.info('user has printed or aborted')
+})
+```
 
 
 ## Contributing
