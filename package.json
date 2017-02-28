@@ -12,7 +12,7 @@
 	"license":     "ISC",
 	"engines":     {"node": ">=6"},
 	"dependencies": {
-		"window-on-print": "^0.1.0"
+		"window-on-print": "motiz88/window-on-print#648355d"
 	},
 	"devDependencies": {
 		"browserify": "^13.1.1",
